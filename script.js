@@ -4,10 +4,27 @@ let playerChoice
 let computerChoice
 let result = document.querySelector('#result-text')
 const randomizer = Math.floor(Math.random() * 3)
-
-
+const rock = document.querySelector('#rock')
+const paper = document.querySelector('#paper')
+const scissors = document.querySelector('#scissors')
 const choices = ["Rock", "Paper", "Scissors"]
-playerChoice = choices[2]
+
+rock.addEventListener('click', () => {
+   return playerChoice = choices[0]
+})
+
+paper.addEventListener('click', () => {
+    return playerChoice = choices[1]
+})
+
+scissors.addEventListener('click', () => {
+    return playerChoice = choices[2]
+})
+
+
+
+
+// playerChoice = choices[2]
 computerChoice = choices[randomizer]
 
 console.log(playerChoice)
