@@ -7,7 +7,7 @@ const randomizer = Math.floor(Math.random() * 3)
 const rock = document.querySelector('#rock')
 const paper = document.querySelector('#paper')
 const scissors = document.querySelector('#scissors')
-const choices = ["Rock", "Paper", "Scissors"]
+const choices = ['Rock', 'Paper', 'Scissors']
 
 rock.addEventListener('click', function() {
     playerChoice = choices[0]
