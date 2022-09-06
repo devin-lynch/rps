@@ -8,6 +8,8 @@ const rock = document.querySelector('#rock')
 const paper = document.querySelector('#paper')
 const scissors = document.querySelector('#scissors')
 const choices = ['Rock', 'Paper', 'Scissors']
+let playerWinTotal = 0
+let computerWinTotal = 0
 
 rock.addEventListener('click', function() {
     playerChoice = choices[0]
